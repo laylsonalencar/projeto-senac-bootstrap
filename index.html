@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Aluno</title>
+  <!-- Adiciona o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Formulario de cadastro de aluno</h1>
+  <h2>laylson kkkkkkkkkkkkkk....</h2>
+  <form id="formCadastro" class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="nomeInput" class="form-label">Nome completo</label>
+      <input type="text" class="form-control" id="nomeInput" name="nome" placeholder="Insira seu nome completo" required>
+      <div class="invalid-feedback">
+        Por favor, insira seu nome completo.
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="emailInput" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="emailInput" name="email" placeholder="nome@exemplo.com" required>
+      <div class="invalid-feedback">
+        Por favor, insira um e-mail válido.
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="cpfInput" class="form-label">CPF</label>
+      <input type="text" class="form-control" id="cpfInput" name="cpf" placeholder="123.456.789-00" required>
+      <div class="invalid-feedback">
+        Por favor, insira um CPF válido.
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="rgInput" class="form-label">RG</label>
+      <input type="text" class="form-control" id="rgInput" name="rg" placeholder="123456789" required>
+      <div class="invalid-feedback">
+        Por favor, insira um RG válido.
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="dataNascimentoInput" class="form-label">Data de nascimento</label>
+      <input type="date" class="form-control" id="dataNascimentoInput" name="dataNascimento" required>
+      <div class="invalid-feedback">
+        Por favor, insira sua data de nascimento.
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="telefoneInput" class="form-label">Telefone</label>
+      <input type="tel" class="form-control" id="telefoneInput" name="telefone" placeholder="(00) 00000-0000" required>
+      <div class="invalid-feedback">
+        Por favor, insira um telefone válido.
+      </div>
+    </div>
+    <div class="col-md-12">
+      <label for="enderecoInput" class="form-label">Endereço</label>
+      <input type="text" class="form-control" id="enderecoInput" name="endereco" placeholder="Insira seu endereço completo" required>
+      <div class="invalid-feedback">
+        Por favor, insira seu endereço completo.
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="cidadeInput" class="form-label">Cidade</label>
+      <input type="text" class="form-control" id="cidadeInput" name="cidade" required>
+      <div class="invalid-feedback">
+        Por favor, insira a cidade.
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="estadoInput" class="form-label">Estado</label>
+      <select class="form-select" id="estadoInput" name="estado" required>
+        <option value="">Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        </select>
+        <div class="invalid-feedback">
+        Por favor, selecione o estado.
+        </div>
+        
+          </div>
+          <div class="col-md-4">
+            <label for="cepInput" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="cepInput" name="cep" placeholder="00000-000" required>
+            <div class="invalid-feedback">
+              Por favor, insira um CEP válido.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="cursoInput" class="form-label">Curso</label>
+            <input type="text" class="form-control" id="cursoInput" name="curso" required>
+            <div class="invalid-feedback">
+              Por favor, insira o nome do curso.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="periodoInput" class="form-label">Período</label>
+            <select class="form-select" id="periodoInput" name="periodo" required>
+              <option value="">Selecione</option>
+              <option value="1">1º período</option>
+              <option value="2">2º período</option>
+              <option value="3">3º período</option>
+              <option value="4">4º período</option>
+              <option value="5">5º período</option>
+              <option value="6">6º período</option>
+              <option value="7">7º período</option>
+              <option value="8">8º período</option>
+              <option value="9">9º período</option>
+              <option value="10">10º período</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor, selecione o período em que está matriculado.
+            </div>
+            
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <label for="mensagemInput" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagemInput" name="mensagem" rows="4" required></textarea>
+                <div class="invalid-feedback">
+                  Por favor, insira uma mensagem.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+            </form>
+        
+        
+        
+        
+  
+      <!-- Adiciona o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+</html>
+
